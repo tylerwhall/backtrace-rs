@@ -12,6 +12,7 @@ fn main() {
         target.contains("cloudabi") ||
         target.contains("hermit") ||
         target.contains("wasm32") ||
+        target.contains("zephyr") ||
         target.contains("fuchsia") ||
         target.contains("uclibc")
     {
